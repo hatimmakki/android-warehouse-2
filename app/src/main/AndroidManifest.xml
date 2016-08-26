@@ -25,6 +25,7 @@
         <activity android:name=".activities.FontManagerDemo"></activity>
         <activity android:name=".activities.NewsFragment"></activity>
         <activity android:name=".activities.ParallaxDemo"></activity>
+        <activity android:name=".activities.ParallaxWithCardView"></activity>
     </application>
 
 </manifest>
