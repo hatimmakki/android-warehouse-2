@@ -6,4 +6,5 @@ package com.maxwell.androidwarehouse2.utils;
 public class Constants {
     public static final String DEBUG = "debug_warehouse";
     public static final String API_GITHUB = "https://api.github.com";
+    public static final String API_STACK_OVERFLOW = "https://api.stackexchange.com";
 }

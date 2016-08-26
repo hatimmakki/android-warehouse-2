@@ -20,6 +20,7 @@
 
         <activity android:name=".activities.DummyActivity"></activity>
         <activity android:name=".activities.GitHubApiWithVolley"></activity>
+        <activity android:name=".activities.StackOverflowAPIRetrofitDemo"></activity>
     </application>
 
 </manifest>
