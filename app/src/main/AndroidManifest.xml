@@ -24,6 +24,7 @@
         <activity android:name=".activities.VideoCaptureDemo"></activity>
         <activity android:name=".activities.TTS"></activity>
         <activity android:name=".activities.STT"></activity>
+        <activity android:name=".activities.ShapesDemo"></activity>
     </application>
 
 </manifest>
