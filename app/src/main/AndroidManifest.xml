@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.DummyActivity"></activity>
+        <activity android:name=".activities.MultipleAnimations"></activity>
+
     </application>
 
 </manifest>
