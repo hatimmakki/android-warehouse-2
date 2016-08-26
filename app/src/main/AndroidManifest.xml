@@ -23,6 +23,7 @@
         <activity android:name=".activities.DialogDemo"></activity>
         <activity android:name=".activities.DrawerLayoutDemo"></activity>
         <activity android:name=".activities.FontManagerDemo"></activity>
+        <activity android:name=".activities.NewsFragment"></activity>
     </application>
 
 </manifest>
