@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_abduction" android:title="Test"
+        android:icon="@drawable/abduction" app:showAsAction="always" />
+
+    <item android:id="@+id/action_airportapron" android:title="Test"
+        android:icon="@drawable/airportapron" app:showAsAction="always" />
+
+    <item android:id="@+id/action_apple" android:title="Test"
+        android:icon="@drawable/apple" app:showAsAction="always" />
+</menu>
