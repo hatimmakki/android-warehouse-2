@@ -21,6 +21,7 @@
 
         <activity android:name=".activities.DummyActivity"></activity>
         <activity android:name=".activities.LocationDemo"></activity>
+        <activity android:name=".activities.LocationListenerDemo"></activity>
 
         <!-- GOOGLE MAPS BEGIN -->
         <meta-data
