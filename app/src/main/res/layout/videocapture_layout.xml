@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/videoLay">
+        <VideoView
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:id="@+id/VideoView"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/newVideoButton"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Video"
+        android:layout_below="@+id/videoLay"
+        android:textColor="#ff0000" />
+
+    <Button
+        android:id="@+id/chooseVideoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newVideoButton"
+        android:layout_centerHorizontal="true"
+        android:text="Choose video"
+        android:textColor="#0037ff" />
+
+    <Button
+        android:id="@+id/playVideo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/chooseVideoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Video"
+        android:textColor="#03ce00" />
+
+</RelativeLayout>
