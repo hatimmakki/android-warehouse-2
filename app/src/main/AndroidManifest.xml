@@ -23,6 +23,7 @@
         <activity android:name=".activities.FileExplorerDemo"></activity>
         <activity android:name=".activities.PrefsDemo"></activity>
         <activity android:name=".activities.SaveFileDemo"></activity>
+        <activity android:name=".activities.SQLiteDemo"></activity>
     </application>
 
 </manifest>
