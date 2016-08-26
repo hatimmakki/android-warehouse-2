@@ -26,6 +26,7 @@
         <activity android:name=".activities.STT"></activity>
         <activity android:name=".activities.ShapesDemo"></activity>
         <activity android:name=".activities.MediaPlayerStreaming"></activity>
+        <activity android:name=".activities.GlideDemo"></activity>
     </application>
 
 </manifest>
