@@ -20,6 +20,7 @@
 
         <activity android:name=".activities.DummyActivity"></activity>
         <activity android:name=".activities.ActionBarDemo"></activity>
+        <activity android:name=".activities.DialogDemo"></activity>
     </application>
 
 </manifest>
