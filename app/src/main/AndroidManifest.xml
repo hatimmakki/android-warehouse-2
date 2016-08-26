@@ -20,6 +20,8 @@
 
         <activity android:name=".activities.DummyActivity"></activity>
         <activity android:name=".activities.FacebookLogin"></activity>
+        <activity android:name=".activities.FacebookShare"></activity>
+        <activity android:name=".activities.SharingDemo"></activity>
     </application>
 
 </manifest>
