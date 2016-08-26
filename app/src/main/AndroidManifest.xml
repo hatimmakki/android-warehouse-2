@@ -28,6 +28,7 @@
         <activity android:name=".activities.MediaPlayerStreaming"></activity>
         <activity android:name=".activities.GlideDemo"></activity>
         <activity android:name=".activities.ExoPlayerDemo"></activity>
+        <activity android:name=".activities.AdvanceTTSAndSTT"></activity>
     </application>
 
 </manifest>
