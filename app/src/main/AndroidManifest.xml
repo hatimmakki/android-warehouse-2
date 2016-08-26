@@ -21,6 +21,7 @@
 
         <activity android:name=".activities.DummyActivity"></activity>
         <activity android:name=".activities.FileExplorerDemo"></activity>
+        <activity android:name=".activities.PrefsDemo"></activity>
     </application>
 
 </manifest>

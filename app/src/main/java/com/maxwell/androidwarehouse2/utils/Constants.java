@@ -5,4 +5,7 @@ package com.maxwell.androidwarehouse2.utils;
  */
 public class Constants {
     public static final String DEBUG = "debug_warehouse";
+    public static final String KEY_PREFS = "PREFS";
+    public static final String KEY_NAME = "NAME";
+    public static final String KEY_AGE = "AGE";
 }
