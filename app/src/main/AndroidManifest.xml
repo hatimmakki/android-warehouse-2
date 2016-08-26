@@ -21,6 +21,8 @@
         <activity android:name=".activities.DummyActivity"></activity>
         <activity android:name=".activities.ActionBarDemo"></activity>
         <activity android:name=".activities.DialogDemo"></activity>
+        <activity android:name=".activities.DrawerLayoutDemo"></activity>
+        <activity android:name=".activities.FontManagerDemo"></activity>
     </application>
 
 </manifest>

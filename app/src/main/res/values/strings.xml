@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Android Warehouse 2</string>
+    <string name="app_name">Android Warehouse 2 - UI</string>
+
+    <string-array name="planets_array">
+        <item>Big Buck Bunny</item>
+        <item>Elephants Dream</item>
+        <item>Sintel</item>
+        <item>Tears of Steel</item>
+    </string-array>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
 </resources>
