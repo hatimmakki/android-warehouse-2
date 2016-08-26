@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             mActivities = new ArrayList<>(Arrays.asList(pi.activities));
 
             for (ActivityInfo item:mActivities) {
-                if(!item.name.contains("MainActivity")){
+                if(!item.name.contains("MainActivity") && item.name.contains("activities")){
                     Class cl = Class.forName(item.name);
                     String className = item.name.replace(item.packageName + ".activities.", "");
                     itemsList.add(new Items(cl, className));
