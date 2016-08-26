@@ -27,6 +27,7 @@
         <activity android:name=".activities.ParallaxDemo"></activity>
         <activity android:name=".activities.ParallaxWithCardView"></activity>
         <activity android:name=".activities.SnackbarDemo"></activity>
+        <activity android:name=".activities.TabsDemo"></activity>
     </application>
 
 </manifest>
