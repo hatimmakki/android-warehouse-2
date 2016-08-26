@@ -19,6 +19,7 @@
         </activity>
 
         <activity android:name=".activities.DummyActivity"></activity>
+        <activity android:name=".activities.FacebookLogin"></activity>
     </application>
 
 </manifest>
