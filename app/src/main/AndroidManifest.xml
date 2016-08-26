@@ -22,6 +22,7 @@
         <activity android:name=".activities.ZoomInZoomOut"></activity>
         <activity android:name=".activities.VideoStreamingDemo"></activity>
         <activity android:name=".activities.VideoCaptureDemo"></activity>
+        <activity android:name=".activities.TTS"></activity>
     </application>
 
 </manifest>
