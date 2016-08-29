@@ -21,6 +21,17 @@
         <activity android:name=".activities.GitHubApiWithVolley"></activity>
         <activity android:name=".activities.StackOverflowAPIRetrofitDemo"></activity>
         <activity android:name=".activities.TwitterAPIDemo"></activity>
+
+        <activity android:name=".activities.DeepLinkDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http"
+                    android:host="www.argentinageek.net" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
