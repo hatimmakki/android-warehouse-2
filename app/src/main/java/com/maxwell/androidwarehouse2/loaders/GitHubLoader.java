@@ -6,7 +6,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.maxwell.androidwarehouse2.helpers.GsonRequest;
 import com.maxwell.androidwarehouse2.interfaces.OnGitHubResult;
-import com.maxwell.androidwarehouse2.models.GitHubUser;
+import com.maxwell.androidwarehouse2.models.github.GitHubUser;
 import com.maxwell.androidwarehouse2.utils.Constants;
 
 /**

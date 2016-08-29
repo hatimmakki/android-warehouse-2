@@ -1,6 +1,6 @@
 package com.maxwell.androidwarehouse2.interfaces;
 
-import com.maxwell.androidwarehouse2.models.GitHubUser;
+import com.maxwell.androidwarehouse2.models.github.GitHubUser;
 
 public interface OnGitHubResult {
 

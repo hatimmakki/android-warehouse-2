@@ -1,4 +1,4 @@
-package com.maxwell.androidwarehouse2.models;
+package com.maxwell.androidwarehouse2.models.github;
 
 /**
  * Created by Maximiliano on 15/09/15.

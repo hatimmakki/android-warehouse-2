@@ -9,7 +9,7 @@ import com.maxwell.androidwarehouse2.R;
 import com.maxwell.androidwarehouse2.helpers.VolleyHelper;
 import com.maxwell.androidwarehouse2.interfaces.OnGitHubResult;
 import com.maxwell.androidwarehouse2.loaders.GitHubLoader;
-import com.maxwell.androidwarehouse2.models.GitHubUser;
+import com.maxwell.androidwarehouse2.models.github.GitHubUser;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

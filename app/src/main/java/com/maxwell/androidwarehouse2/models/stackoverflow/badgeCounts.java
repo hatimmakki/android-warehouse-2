@@ -1,9 +1,9 @@
-package com.maxwell.androidwarehouse2.models;
+package com.maxwell.androidwarehouse2.models.stackoverflow;
 
 /**
  * Created by Maxwell on 15/08/2016.
  */
-public class StackOverflowBadgeCounts {
+public class badgeCounts {
     int bronze;
     int silver;
     int gold;

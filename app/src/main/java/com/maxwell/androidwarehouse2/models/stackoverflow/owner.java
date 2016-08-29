@@ -1,10 +1,10 @@
-package com.maxwell.androidwarehouse2.models;
+package com.maxwell.androidwarehouse2.models.stackoverflow;
 
 /**
  * Created by Maxwell on 12/08/2016.
  */
-public class StackOverflowOwner {
-    StackOverflowBadgeCounts badge_counts;
+public class owner {
+    badgeCounts badge_counts;
     String reputation;
     int user_id;
     String user_type;
@@ -36,7 +36,7 @@ public class StackOverflowOwner {
         return link;
     }
 
-    public StackOverflowBadgeCounts getBadge_counts() {
+    public badgeCounts getBadge_counts() {
         return badge_counts;
     }
 }

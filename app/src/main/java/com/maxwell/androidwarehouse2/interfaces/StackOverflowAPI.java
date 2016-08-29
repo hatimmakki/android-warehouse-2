@@ -1,11 +1,10 @@
 package com.maxwell.androidwarehouse2.interfaces;
 
-import com.maxwell.androidwarehouse2.models.StackOverflowItems;
-import com.maxwell.androidwarehouse2.models.StackOverflowQuestion;
+import com.maxwell.androidwarehouse2.models.stackoverflow.items;
+import com.maxwell.androidwarehouse2.models.stackoverflow.question;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 /**
@@ -14,5 +13,5 @@ import retrofit2.http.Query;
 public interface StackOverflowAPI {
 
     @GET("questions?order=desc&site=stackoverflow&filter=!-*f(6rc.lFba")
-    Call<StackOverflowItems<StackOverflowQuestion>> loadQuestionsByTag(@Query("tagged") String tags, @Query("sort") String sort);
+    Call<items<question>> loadQuestionsByTag(@Query("tagged") String tags, @Query("sort") String sort);
 }
